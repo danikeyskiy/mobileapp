@@ -1,0 +1,762 @@
+@media (width: 768px) {
+    .background_ipad {
+        position:absolute; 
+        z-index: 0;
+        height: 0px;
+    }
+
+    .background_mini {
+        position: absolute;
+        z-index:    0;
+        height: 1024px;
+        width: 100%;
+    }
+
+    .download_transactions_mini {
+        position: absolute;
+        width: 36.5%;
+        height: 50%;
+        left: 63vw;
+        top: 42vh;
+    }
+
+    .mail_icon {
+        position: absolute;
+        left: 5.3vw;
+        top: 3.5vh;
+    }
+
+    .mail {
+        position: absolute;
+        left: 9.8vw;
+        top: 3.5vh;
+        z-index: 1;
+    }
+
+    .phone_icon {
+        height: auto;
+        position: absolute;
+        left: 35.5vw;
+        top: 3.5vh;
+    }
+
+    .phone {
+        position: absolute;
+        left: 40vw;
+        top: 3vh;
+    }
+
+    .socials_icons {
+        position: relative;
+        left: 73.5vw;
+        top: 3vh;
+    }
+
+    .nav-inner ul li:not(.btn) {
+        font-size: 0px;
+    }
+
+    .nav-inner ul li.btn {
+        position: absolute;
+        left: 63vw;
+        top: 2.3vh;
+    }    
+
+
+    .rectangle1 {
+        position: absolute;
+        left: 37vw;
+        top: 9vh;
+        width: 26vw;
+        height: 9.5vh;
+    }
+
+    .rectangle2 {
+        position: absolute;
+        left: 6vw;
+        top: 10vh;
+        width: 89vw;
+        height: 7vh;
+    }
+
+    .apolly_mini {
+        position:absolute; 
+        left: 39vw; 
+        top: 12vh;
+    }
+
+    .menu_mini {
+        position: absolute;
+        opacity: 1;
+        z-index: 2;
+        top: 12vh;
+        left: 7vh;
+    }
+    
+    .outline-square {
+        width: 340px;
+        height: 346px;
+        margin: 413px auto;
+        margin-left: 56px;
+        position: absolute;
+    }
+
+    .inline-square {
+        width: 359px;
+        height: 315px;
+        margin: 450px auto;
+        margin-left: 37px;
+        position: absolute;
+    }
+
+    .des1 {
+        top: 52.8vh;
+        left: 7.5vw;
+        font-size: 31.25px;
+        line-height: 47.25px;
+        width: 400px;
+    }
+
+    .inl_des1 {
+        top: 65vh;
+        left: 7.5vw;
+        font-size: 16px;
+        line-height: 24px;
+        width: 330px;
+    }
+
+    .downl_des {
+        top: 77vh;
+        left: 7.5vw;
+        font-size: 20px;
+        line-height: 30px;
+        width: 490px;
+    }
+
+    .download_google_play {
+        left: 7.5vw; 
+        top: 82vh;
+    }
+
+    .download_app_store { 
+        left: 29vw; 
+        top: 82vh;
+    }
+
+    .about_app {
+        top: 132vh;
+        left: 32.8vw;
+        font-size: 31px;
+    }
+
+    .about_des {
+        top: 136vh;
+        left: 13vw;
+        width: 600px;
+        text-align: center;
+    }
+
+    .income_png {
+        width: 35%;
+        height: 35%;
+        left: 4vw; 
+        top: 154vh; 
+        z-index: 1;
+    }
+
+    .income_shadow {
+        border-radius: 100px;
+        border-radius: 50%;
+        top: 184vh;
+        left: 5.3vw;
+        box-shadow: rgba(0, 0, 0, 0.098) 0px 1px 10px 0px;
+    }
+
+    .about_rect1 {
+        position: absolute;
+        left: 45vw;
+        top: 148vh;
+        width: 50vw;
+        height: 16vh;
+    }
+
+    .about_rect1_title {
+        position:absolute;
+        left: 6vw;
+        top: 2.6vh;
+        color: rgb(35, 34, 51);
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .about_rect1_des {
+        opacity: 0;
+        width: 0px;
+    }
+
+    .about_rect1_des_mini {
+        position: absolute;
+        opacity: 1;
+        top: 7vh;
+        left: 6vw;
+        color: rgb(108, 108, 114);
+        font-size: 16px;
+        line-height: 24px;
+        width: 350px;
+    }
+
+    .about_rect2 {
+        left: 45vw;
+        top: 168vh;
+        width: 50vw;
+        height: 16vh;
+    }
+
+    .about_rect3 {
+        left: 45vw;
+        top: 188vh;
+        width: 50vw;
+        height: 16vh;
+    }
+
+    .features_bg {
+        opacity: 0;
+    }
+    
+    .features_bg_mini {
+        opacity: 1;
+        top: 213vh;
+    }
+
+    .features_tittle {
+        top: 224.2vh;
+        left: 35vw;
+    }
+
+    .features_des {
+        opacity: 0;
+        width: 0px;
+    }
+
+    .features_des_mini {
+        opacity: 1;
+        top: 230vh;
+        left: 23vw;
+        color:#ffffff;
+        text-align: center;
+        font-weight: 300;
+        width: 415px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .features_comment {
+        top: 242.7vh; 
+        left: 47.3vw;
+    }
+
+    .features_chat {
+        top: 250vh;
+        left: 39.5vw;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .features_chat_des {
+        top: 255vh;
+        left: 37vw;
+        width: 210px;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 300;
+    }
+
+    .features_app {
+        top: 260vh; 
+        left: 32.8vw; 
+    }
+
+    .features_browser {
+        top: 271vh; 
+        left: 27.4vw; 
+    }
+
+    .features_unlim {
+        top: 280vh;
+        left: 4.5vw;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .features_unlim_des {
+        top: 286vh;
+        left: 4.5vw;
+        width: 290px;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        width: 222px;
+    }
+
+    .features_pen {
+        top: 301vh; 
+        left: 27.4vw;
+    }
+
+    .features_awesome {
+        top: 310vh;
+        left: 5.5vw;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .features_awesome_des {
+        top: 315vh;
+        left: 0vw;
+        width: 260px;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+
+    .features_app {
+        top: 265vh; 
+        left: 30.8vw; 
+        height: 68%;
+        width: 45%;
+    }
+
+    .features_cell-phone {
+        top: 271vh; 
+        left: 66.5vw; 
+    }
+
+    .features_iso {
+        top: 280vh;
+        left: 67.2vw;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .features_iso_des {
+        top: 288vh;
+        left: 67vw;
+        width: 244px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .features_eye-scanner {
+        top: 301vh; 
+        left: 67.2vw; 
+    }
+
+    .features_retina {
+        top: 310vh;
+        left: 67.2vw;
+        font-size: 20px;
+        line-height: 30px;
+        width: 244px;
+    }
+
+    .features_retina_des {
+        top: 318vh;
+        left: 67vw;
+        width: 244px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .features_male-tele {
+        top: 335vh; 
+        left: 47.3vw;
+    }
+
+    .features_support {
+        top: 344vh;
+        left: 30vw;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .features_support_des {
+        top: 351vh;
+        left: 32vw;
+        width: 290px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .interface_checkout {
+        top: 385vh;
+        left: 26vw;
+        font-size: 31.25px;
+        font-weight: 700;
+        line-height: 47.25px;
+        width: 370px;
+        text-align: center;
+    }
+
+    .interface_checkout_des {
+        top: 398vh;
+        left: 11.5vw;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 600px;
+    }
+
+    .interface_app {
+        top: 414vh; 
+        left: 4vw;
+        width: 92%;
+    }
+
+    .interface_left {
+        opacity: 0;
+    }
+
+    .interface_right {
+        opacity: 0;
+    }
+
+    .interface_slider {
+        top: 466vh; 
+        left: 40vw;
+    }
+
+    .download_app_title {
+        top: 482vh;
+        left: 5vw;
+        font-size: 31.25px;
+        line-height: 47.25px;
+        text-align: left;
+        width: 300px;
+    }
+
+    .download_app_des {
+        opacity: 0;
+    }
+
+    .download_app_des_mini {
+        position: absolute;
+        opacity: 1;
+        top: 495vh;
+        left: 5vw;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 316px;
+    }
+
+    .download_google{
+        position:absolute; 
+        top: 508vh; 
+        left: 5vw;
+    }
+
+    .download_appstore {
+        position:absolute; 
+        top: 508vh; 
+        left: 27.5vw;
+    }
+
+    .download_rating {
+        position:absolute; 
+        top: 516vh; 
+        left: 4vw;
+        width: 44%;
+    }
+
+    .download_appdesign {
+        position:absolute; 
+        top: 493vh; 
+        right: 8.5vw;
+        width: 40%;
+    }
+
+    .htu_bg {
+        opacity: 0;
+        width: 0px;
+    }
+
+    .htu_bg_mini {
+        opacity: 1;
+        top: 543vh; 
+        z-index: 0; 
+        left: 1px;
+    }
+
+    .htu_video {
+        position:absolute; top: 565vh; z-index: 1; left: 1vw; width: 98%;
+    }
+    
+    .htu_title {
+        top: 548vh;
+        left: 26vw;
+        width: 365px;
+        text-align: center;
+    }
+    
+    .htu_des {
+        top: 560vh;
+        left: 12vw;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        width: 600px;
+        font-weight: 300;
+    }
+
+    .team_title {
+        top: 616vh;
+        left: 29vw;
+        font-size: 31.25px;
+        font-weight: 700;
+        line-height: 47.25px;
+    }
+
+    .team_des {
+        top: 624vh;
+        left: 11.1vw;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 600px;
+    }
+
+    .team_png {
+        position: absolute; top: 635vh; left: 5vw; width: 90%;
+    }
+
+    .customers_png {
+        position: absolute;
+        opacity: 0;
+    }
+
+    .customers_mini {
+        position: absolute;
+        top: 690vh;
+        opacity: 1;
+    }
+
+    .blog_title {
+        top: 790vh;
+        left: 30vw;
+        font-size: 31.25px;
+        font-weight: 700;
+        line-height: 47.25px;
+    }
+
+    .blog_des {
+        top: 797vh;
+        left: 11.1vw;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 600px;
+    }
+
+    .blog_rect1 {
+        top: 810vh;
+        left: 4.5vw;
+        width: 220px;
+        height: 540px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.098) 0px 1px 10px 0px;
+    }
+
+    .blog_rect2 {
+        top: 810vh;
+        left: 37vw;
+        width: 220px;
+        height: 540px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.098) 0px 1px 10px 0px;
+    }
+
+    .blog_rect3 {
+        top: 810vh;
+        left: 65vw;
+        width: 220px;
+        height: 540px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.098) 0px 1px 10px 0px;
+    }
+
+    .blog_rect1_title {
+        top: 20vh;
+        left: 3vw;
+        width: 200px;
+        font-size: 20px;
+        line-height: 30px;
+        color: rgb(0, 0, 0);
+    }
+
+    .blog_rect1_des {
+        top: 35vh;
+        left: 3vw;
+        width: 190px;
+    }
+
+    .blog_rect1 a {
+        top: 55vh;
+        left: 3vw;
+    }
+
+    .blog_rect2_title {
+        top: 20vh;
+        left: 3vw;
+    }
+
+    .blog_rect2_des {
+        top: 35vh;
+        left: 3vw;
+        width: 190px;
+    }
+
+    .blog_rect2 a {
+        top: 55vh;
+        left: 3vw;
+    }
+
+    .blog_rect3_title {
+        top: 20vh;
+        left: 3vw;
+    }
+
+    .blog_rect3_des {
+        top: 35vh;
+        left: 3vw;
+        width: 190px;
+    }
+
+    .blog_rect3 a {
+        top: 55vh;
+        left: 3vw;
+    }
+
+    .contacts_rect {
+        top: 885vh;
+        left: 5.5vw;
+        width: 90%;
+        height: 18%;
+    }
+
+    .contacts_vertical_line {
+        top: 20%;
+        bottom: 20%;
+        left: 50%;
+        width: 3px;
+    }
+
+    .contacts_email {
+        position: absolute; z-index: 2; top: 30%; left: 3%; width: 9%;
+    }
+
+    .contacts_mail {
+        top: 42%;
+        left: 15%;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .contacts_call {
+        position:absolute; z-index: 2; top: 30%; right: 37%; width: 9%;
+    }
+
+    .contacts_phone {
+        top: 42%;
+        right: 15%;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .footer_rect {
+        width: 100%;
+        height: 50%;
+        top: 894vh;
+    }
+
+    .footer_logo_title {
+        top: 15vh;
+        left: 5vw;
+        font-size: 31.25px;
+        line-height: 47.25px;
+        color: rgb(255, 255, 255);
+    }
+
+    .footer_logo_des {
+        opacity: 0;
+    }
+
+    .footer_logo_des_mini {
+        position: absolute;
+        top: 21vh;
+        left: 5vw;
+        width: 219px;
+        opacity: 1;
+        color: rgb(255, 255, 255);
+        line-height: 24px;
+    }
+
+    .footer_icons_png {
+        position: absolute; z-index: 1; top: 32.5vh; left: 5vw; width: 28%;
+    }
+
+    .footer_links {
+        gap: 11px;
+        margin-top: 15vh;
+        margin-left: 36.2vw;
+    }
+
+    .footer_letters {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        list-style: none;
+        margin-top: -20.5vh;
+        margin-left: 65vw;
+        z-index: 1;
+        color: rgb(255, 255, 255);
+    }
+
+    .footer_letters_title {
+        font-size: 25px;
+        line-height: 37.5px;
+    }
+
+    .footer_letters_des {
+        width: 80%;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+
+    .newsletter_form {
+        border-radius: 6px;
+        padding: 2px;
+        width: 250px;
+    }
+
+    .footer_line {
+        left: 10%;
+        bottom: 14%;
+        width: 80%;
+        height: 1px;
+        background-color: rgb(255, 255, 255);
+        z-index: 1;
+    }
+
+    .footer_copyright {
+        position: absolute;
+        bottom: 4%;
+        left: 33%;
+        color:#ffffff;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 300;
+    }
+}

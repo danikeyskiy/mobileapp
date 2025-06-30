@@ -1,0 +1,809 @@
+@media (width: 375px) {
+    .container {
+        width: 375px;
+    }
+
+    .background_ipad {
+        position:absolute; 
+        z-index: 0;
+        opacity: 0;
+    }
+
+    .background_phone {
+        opacity: 1;
+        z-index: 0;
+    }
+
+    .mail_icon {
+        opacity: 0;
+    }
+
+    .mail {
+        opacity: 0;
+    }
+
+    .phone_icon {
+        opacity: 0;
+    }
+
+    .phone {
+        opacity: 0;
+    }
+
+    .socials_icons {
+        opacity: 0;
+        width: 0px;
+    }
+
+    .nav-inner ul {
+        list-style: none;
+        display: flex;
+        gap: 3vw;
+        padding: 0;
+        margin: -139px;
+    }
+
+    .nav-inner ul li a {
+        color: #000;
+        text-decoration: none;
+    }
+
+    .nav-inner ul li:not(.btn) {
+        opacity: 0;
+    }
+
+    .nav-inner ul li.btn {
+        position: absolute;
+        left: 63vw;
+        top: -3vh;
+        height: 10px;
+        font-size: 10px;
+    }
+
+    .nav-inner ul li.btn a {
+        background: #5956e9;
+        padding: 10px 6px;
+        color:#fdfdfd;
+        border-radius: 5px;
+    }
+
+    .rectangle1 {
+        position: absolute;
+        left: 36vw;
+        top: 4vh;
+        width: 28vw;
+        height: 6.5vh;
+    }
+
+    .rectangle2 {
+        position: absolute;
+        left: 4vw;
+        top: 5vh;
+        width: 92vw;
+        height: 4.5vh;
+    }
+
+    .apolly_mini {
+        position:absolute; 
+        left: 39vw; 
+        top: 6.5vh;
+        width: 22%;
+    }
+
+    .menu_mini {
+        position: absolute;
+        opacity: 1;
+        z-index: 2;
+        top: 6vh;
+        left: 3vh;
+    }
+
+    .download_transactions_mini {
+        position: absolute;
+        width: 81%;
+        height: 60%;
+        left: 8vw;
+        top: 67vh;
+    }
+
+    .outline-square {
+        width: 305px;
+        height: 336px;
+        margin: 189px auto;
+        margin-left: 34px;
+        position: absolute;
+        border: 10px solid #7572FF;
+    }
+
+    .inline-square {
+        width: 323px;
+        height: 315px;
+        margin: 210px auto;
+        margin-left: 16px;
+        position: absolute;
+    }
+
+    .des1 {
+        top: 27.5vh;
+        left: 8.5vw;
+        font-size: 25px;
+        line-height: 37.5px;
+        width: 336px;
+    }
+
+    .inl_des1 {
+        opacity: 0;
+        width: 0px;
+    }
+
+    .inl_des1_phone {
+        opacity: 1;
+        top: 38vh;
+        left: 8.5vw;
+        font-size: 16px;
+        line-height: 24px;
+        width: 299px;
+        color: #313131;
+        z-index: 3;
+        font-weight: 400;
+    }
+
+    .downl_des {
+        top: 48.8vh;
+        left: 8.5vw;
+        font-size: 20px;
+        line-height: 30px;
+        width: 300px;
+    }
+
+    .download_google_play {
+        left: 8.5vw; 
+        top: 54.5vh;
+        width: 30%;
+    }
+
+    .download_app_store { 
+        left: 41vw; 
+        top: 54.5vh;
+        width: 30%;
+    }
+
+    .features_bg {
+        opacity: 0;
+        width: 0px;
+    }
+
+    .income_png {
+        width: 60%;
+        height: 38%;
+        left: 20vw; 
+        top: 168vh; 
+        z-index: 1;
+    }
+
+    .income_shadow {
+        border-radius: 100px;
+        border-radius: 50%;
+        top: 201vh;
+        left: 17.3vw;
+        box-shadow: rgba(0, 0, 0, 0.098) 0px 1px 10px 0px;
+    }
+
+    .about_app {
+        top: 149vh;
+        left: 22.8vw;
+        font-size: 25px;
+    }
+
+    .about_des {
+        opacity: 0;
+        width: 0px;
+    }
+
+    .about_des_phone {
+        opacity: 1;
+        top: 155vh;
+        left: 8vw;
+        width: 314px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgb(108, 108, 114);
+    }
+
+    .about_rect1 {
+        position: absolute;
+        left: 5vw;
+        top: 214vh;
+        width: 91vw;
+        height: 13vh;
+    }
+
+    .about_rect1_title {
+        position:absolute;
+        left: 15vw;
+        top: 2vh;
+        color: rgb(35, 34, 51);
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .about_rect1_des {
+        opacity: 0;
+        width: 0px;
+    }
+
+    .about_checkbox {
+        position:absolute; left: 4vw; top: 2vh;
+    }
+
+    .about_rect1_des_mini {
+        position: absolute;
+        opacity: 1;
+        top: 6vh;
+        left: 15vw;
+        color: rgb(108, 108, 114);
+        font-size: 16px;
+        line-height: 24px;
+        width: 295px;
+    }
+
+    .about_rect2 {
+        left: 5vw;
+        top: 229vh;
+        width: 91vw;
+        height: 13vh;
+    }
+
+    .about_rect3 {
+        left: 5vw;
+        top: 244vh;
+        width: 91vw;
+        height: 13vh;
+    }
+
+    .features_bg_phone {
+        top: 270vh;
+        z-index: 0;
+        opacity: 1;
+    }
+    
+    .features_tittle {
+        top: 277vh;
+        left: 25vw;
+        font-size: 25px;
+        line-height: 37.5px;
+    }
+
+    .features_des {
+        opacity: 0;
+        width: 0px;
+    }
+
+    .features_des_mini {
+        opacity: 0;
+        width: 0px;
+    }
+
+    .features_des_phone {
+        opacity: 1;
+        top: 283vh;
+        left: 12vw;
+        color:#ffffff;
+        text-align: center;
+        font-weight: 300;
+        width: 287px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .features_comment {
+        top: 296vh; 
+        left: 43.3vw;
+    }
+
+    .features_chat {
+        top: 305vh;
+        left: 27.4vw;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .features_chat_des {
+        top: 310vh;
+        left: 22vw;
+        width: 210px;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 300;
+    }
+
+    .features_app {
+        top: 360vh; 
+        left: 32.8vw; 
+    }
+
+    .features_browser {
+        top: 320vh; 
+        left: 43.4vw; 
+    }
+
+    .features_unlim {
+        top: 329vh;
+        left: 20vw;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .features_unlim_des {
+        top: 334vh;
+        left: 20vw;
+        width: 260px;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        width: 222px;
+    }
+
+    .features_pen {
+        top: 344.8vh; 
+        left: 43.4vw;
+    }
+
+    .features_awesome {
+        top: 354vh;
+        left: 23vw;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .features_awesome_des {
+        top: 360vh;
+        left: 10vw;
+        width: 260px;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+
+    .features_app {
+        top: 367vh; 
+        left: 12vw; 
+        height: 67%;
+        width: 87.5%;
+    }
+
+    .features_cell-phone {
+        top: 438.5vh; 
+        left: 44.5vw; 
+    }
+
+    .features_iso {
+        top: 448vh;
+        left: 25vw;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        width: 200px;
+    }
+
+    .features_iso_des {
+        top: 457vh;
+        left: 16vw;
+        width: 270px;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .features_eye-scanner {
+        top: 468vh; 
+        left: 43.3vw; 
+    }
+
+    .features_retina {
+        top: 477vh;
+        left: 23.3vw;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        width: 200px;
+    }
+
+    .features_retina_des {
+        top: 486vh;
+        left: 16vw;
+        width: 270px;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .features_male-tele {
+        top: 497.5vh; 
+        left: 43.3vw;
+    }
+
+    .features_support {
+        top: 507vh;
+        left: 18vw;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        width: 240px;
+    }
+
+    .features_support_des {
+        top: 516vh;
+        left: 12vw;
+        width: 290px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .interface_checkout {
+        top: 535vh;
+        left: 1vw;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 37.5px;
+        width: 370px;
+        text-align: center;
+    }
+
+    .interface_checkout_des {
+        opacity: 0;
+        width: 0px;
+    }
+
+    .interface_checkout_des_phone {
+        position: absolute;
+        opacity: 1;
+        top: 545vh;
+        left: 10vw;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .interface_app {
+        top: 414vh; 
+        left: 4vw;
+        width: 92%;
+        opacity: 0;
+    }
+
+    .interface_app_phone {
+        top: 558vh;
+        opacity: 1;
+    }
+
+    .interface_left {
+        opacity: 0;
+    }
+
+    .interface_right {
+        opacity: 0;
+    }
+
+    .interface_slider {
+        top: 466vh; 
+        left: 40vw;
+        opacity: 0;
+    }
+
+    .download_app_title {
+        top: 622vh;
+        left: 5vw;
+        font-size: 25px;
+        line-height: 37.5px;
+        text-align: left;
+        width: 250px;
+    }
+
+    .download_app_des {
+        opacity: 0;
+        width: 0px;
+    }
+
+    .download_app_des_mini {
+        position: absolute;
+        opacity: 1;
+        top: 634vh;
+        left: 5vw;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 316px;
+    }
+
+    .download_google{
+        position:absolute; 
+        top: 647vh; 
+        left: 5vw;
+    }
+
+    .download_appstore {
+        position:absolute; 
+        top: 647vh; 
+        left: 51vw;
+    }
+
+    .download_rating {
+        position:absolute; 
+        top: 659vh; 
+        left: 2vw;
+        width: 90%;
+    }
+
+    .download_appdesign {
+        position:absolute; 
+        top: 677vh; 
+        left: 2vw;
+        width: 90%;
+    }
+
+    .htu_bg {
+        position: absolute; 
+        top: 575vh; 
+        z-index: 0; 
+        left: 1px;
+        opacity: 0;
+        width: 0px;
+    }
+
+    .htu_bg_phone {
+        position: absolute;
+        top: 727vh;
+        opacity: 1;
+    }
+    
+    .htu_video {
+        opacity: 0;
+        width: 0px;
+    }
+
+    .htu_video_phone {
+        opacity: 1;
+        top: 749vh;
+    }
+
+    .htu_title {
+        top: 734vh;
+        left: 3vw;
+        width: 364px;
+        text-align: center;
+        font-size: 25px;
+        line-height: 37.5px;
+    }
+    
+    .htu_des {
+        opacity: 0;
+        width: 0px;
+    }
+
+    .htu_des_phone {
+        opacity: 1;
+        top: 747vh;
+        left: 10vw;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        width: 286px;
+        font-weight: 300;
+    }
+
+    .team_title {
+        top: 784vh;
+        left: 17vw;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 37.5px;
+        text-align: center;
+    }
+
+    .team_des {
+        opacity: 0;
+        width: 0px;
+    }
+
+    .team_des_phone {
+        opacity: 1;
+        top: 790vh;
+        left: 10.1vw;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        width: 300px;
+        color: rgb(108, 108, 114);
+        text-align: center;
+    }
+
+    .team_png {
+        position: absolute; top: 800vh; left: 5vw; width: 90%;
+        opacity: 0;
+    }
+
+    .team_png_phone {
+        position: absolute;
+        opacity: 1;
+        top: 801.5vh;
+        left: 1.8vw;
+    }
+
+    .customers_png {
+        opacity: 0;
+    }
+
+    .customers_phone {
+        opacity: 1;
+        top: 1017vh;
+    }
+
+    .blog_title {
+        position: absolute;
+        top: 1092vh;
+        left: 16vw;
+        font-size: 25px;
+        line-height: 37.5px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+    }
+
+    .blog_des {
+        opacity: 0;
+        width: 0px;
+    }
+
+    .blog_des_phone {
+        opacity: 1;
+        top: 1098vh;
+        left: 10vw;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: rgb(108, 108, 114);
+        text-align: center;
+        width: 300px;
+    }
+
+    .blog_rect1 {
+        position: absolute;
+        top: 1111vh;
+        left: 5vw;
+        width: 90%;
+        height: 459px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.098) 0px 1px 10px 0px;
+    }
+
+    .blog_rect2 {
+        position: absolute;
+        top: 1168vh;
+        left: 5vw;
+        width: 90%;
+        height: 459px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.098) 0px 1px 10px 0px;
+    }
+
+    .blog_rect3 {
+        position: absolute;
+        top: 1225vh;
+        left: 5vw;
+        width: 90%;
+        height: 459px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.098) 0px 1px 10px 0px;
+    }
+
+    .contacts_rect {
+        top: 1285vh;
+        left: 5.5vw;
+        width: 90%;
+        height: 36%;
+    }
+
+    .contacts_vertical_line {
+        left: 32%;
+        top: 50%;
+        width: 35%;
+        height: 5px;
+        background-color: rgb(0, 0, 0);
+        z-index: 2;
+    }
+
+    .contacts_email {
+        position: absolute; z-index: 2; top: 7%; left: 43%; width: 15%;
+    }
+
+    .contacts_mail {
+        top: 30%;
+        left: 24%;
+        z-index: 2;
+        font-size: 20px;
+        line-height: 30px;
+        color: rgb(35, 34, 51);
+    }
+
+    .contacts_call {
+        position:absolute; z-index: 2; top: 57%; left: 43%; width: 15%;
+    }
+
+    .contacts_phone {
+        top: 80%;
+        right: 26%;
+        z-index: 2;
+        font-size: 20px;
+        line-height: 30px;
+        color: rgb(35, 34, 51);
+    }
+
+    .footer_rect {
+        width: 100%;
+        height: 104%;
+        background: rgb(35, 34, 51);
+        border-radius: 0px;
+        top: 1303vh;
+        z-index: 0;
+    }
+
+    .footer_links {
+        gap: 11px;
+        margin-top: 47vh;
+        margin-left: 10.2vw;
+    }
+
+    .footer_letters {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        list-style: none;
+        margin-top: 3.5vh;
+        margin-left: 10vw;
+        z-index: 1;
+        color: rgb(255, 255, 255);
+    }
+
+    .footer_letters_title {
+        font-size: 25px;
+        line-height: 37.5px;
+    }
+
+    .footer_letters_des {
+        width: 90%;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+    }
+
+    .newsletter_form {
+        border-radius: 6px;
+        padding: 2px;
+        width: 295px;
+    }
+
+    .footer_line {
+        left: 10%;
+        bottom: 7%;
+        width: 80%;
+        height: 1px;
+        background-color: rgb(255, 255, 255);
+        z-index: 1;
+    }
+
+    .footer_copyright {
+        position: absolute;
+        bottom: 3%;
+        left: 16%;
+        color:#ffffff;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 300;
+    }
+}
